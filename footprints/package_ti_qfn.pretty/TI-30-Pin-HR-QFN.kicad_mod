@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "TI-30-Pin-HR-QFN"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -64,16 +64,97 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -2.25 -2.5)
-		(end -2.5 -2.5)
+	(fp_line
+		(start -2 -1.775)
+		(end -2 -2)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "bba21995-2935-44b9-ba21-9d4a7b9af09c")
+		(uuid "27abfad8-ee7a-4fb9-9f1c-09ac8c53da45")
+	)
+	(fp_line
+		(start -2 2.25)
+		(end -2 1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "957c9f57-20fc-41c2-bb54-f60c6e7d5731")
+	)
+	(fp_line
+		(start -1.75 -2.225)
+		(end -1.6 -2.225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09d39908-225e-4dc9-b831-923946d60ba6")
+	)
+	(fp_line
+		(start -1.625 2.25)
+		(end -2 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d32bede3-28f5-4745-98e7-6768c594d04a")
+	)
+	(fp_line
+		(start 1.7 2.25)
+		(end 2 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "238851d9-692c-4240-b25b-b04951b9c264")
+	)
+	(fp_line
+		(start 1.725 -2.25)
+		(end 2 -2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10889cce-9687-4812-a4e1-76c4c22181c1")
+	)
+	(fp_line
+		(start 2 -2.25)
+		(end 2 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fc68f8f-1460-45ba-81e3-d9d9c101e3b8")
+	)
+	(fp_line
+		(start 2 2.25)
+		(end 2 1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "129cb76c-79ad-4224-bde1-2076e7e2a4ea")
+	)
+	(fp_poly
+		(pts
+			(xy -2 -2.225) (xy -2.24 -2.555) (xy -1.76 -2.555) (xy -2 -2.225)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0686a5a7-3798-48bd-bf14-926ef130d2ba")
 	)
 	(fp_rect
 		(start -2.25 -2.5)
