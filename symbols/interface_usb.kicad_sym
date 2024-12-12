@@ -7,23 +7,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 15.24 -10.414 0)
+			(at 3.048 -16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 15.24 -10.414 0)
+		(property "Value" "TCPP01-M12"
+			(at 8.636 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 15.24 -10.414 0)
+		(property "Footprint" "Package_DFN_QFN:QFN-12-1EP_3x3mm_P0.51mm_EP1.45x1.45mm"
+			(at 1.27 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 15.24 -10.414 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf"
+			(at 0 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
